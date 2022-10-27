@@ -1,4 +1,4 @@
-import { GiAbstract005 } from "react-icons/Gi";
+import { GiAbstract005 } from "react-icons/gi";
 import Link from "next/Link";
 
 import styled from "styled-components";
