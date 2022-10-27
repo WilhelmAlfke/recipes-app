@@ -4,14 +4,14 @@ const nextConfig = {
   swcMinify: true,
   compiler: {
     styledComponents: true,
-    images: {
-      remotePatterns: [
-        {
-          protocol: "https",
-          hostname: "unsplash.com",
-        },
-      ],
-    },
+  },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "unsplash.com",
+      },
+    ],
   },
 };
 

@@ -13,7 +13,7 @@ const FooterBackground = styled.div`
   bottom: 0;
   width: 100%;
   height: 4%;
-  background-color: blueviolet;
+  background-color: lightcyan;
   display: flex;
   align-items: center;
   justify-content: space-around;

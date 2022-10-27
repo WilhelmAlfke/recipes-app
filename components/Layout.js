@@ -1,13 +1,12 @@
 import Footer from "./Footer";
 import Header from "./Header";
 import styled from "styled-components";
-import Navigation from "./Navigation";
 
 export default function Layout({ children }) {
   return (
     <>
       <Header />
-      <Navigation />
+
       <mainElement>{children}</mainElement>
       <Footer />
     </>
