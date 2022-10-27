@@ -9,13 +9,13 @@ export default function Header() {
         this.is.a.site.
         <abIcon size="4rem" />
         <StyledNavigation>
-          <Link passHref href="/" legacyBehavior>
+          <Link href="/" passHref legacyBehavior>
             <Anchor>Home</Anchor>
           </Link>
-          <Link passHref href="/dessert" legacyBehavior>
+          <Link href="/dessert" passHref legacyBehavior>
             <Anchor>Desserts</Anchor>
           </Link>
-          <Link passHref href="/veggie" legacyBehavior>
+          <Link href="/veggie" passHref legacyBehavior>
             <Anchor>Veggies</Anchor>
           </Link>
         </StyledNavigation>
