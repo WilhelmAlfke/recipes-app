@@ -1,5 +1,5 @@
 import { GiAbstract005 } from "react-icons/gi";
-import Link from "next/Link";
+import Link from "next/link";
 
 import styled from "styled-components";
 export default function Header() {
