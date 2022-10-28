@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <div>
-      <Title>extraterrestrial good ice cream (and other)</Title>
+      <Title>the very best recipes for you</Title>
     </div>
   );
 }
@@ -21,5 +21,5 @@ const Title = styled.h1`
 
 const SubTitle = styled.p`
   font-style: bold;
-  font-size: 1rem;
+  font-size: 0.1rem;
 `;

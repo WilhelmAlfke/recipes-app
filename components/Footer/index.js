@@ -3,7 +3,7 @@ import styled from "styled-components";
 export default function Footer() {
   return (
     <FooterBackground>
-      <p>the bottom of the page</p>
+      <p>the.bottom.of.the.page.</p>
     </FooterBackground>
   );
 }
@@ -20,6 +20,6 @@ const FooterBackground = styled.div`
 `;
 
 const Bottomtext = styled.p`
-  font-size: 0.3rem;
+  font-size: 0.2rem;
   color: greenyellow;
 `;
